@@ -108,3 +108,5 @@ h1 em,h2 em{color:var(--muted);background:none;-webkit-background-clip:initial;b
 .identity-meta div,.card-footer,.evidence-row,.board-axis,.credential i{color:#5b6478}
 .eyebrow,.section-label,.project-type,.entry-kicker,.card-top,.identity-meta span,.identity-focus>span,.list-heading,.skill-group>span,.visual-header{color:#131b33}
 .facts span{color:#5b6478}
+.profile-photo{display:block;width:112px;height:112px;margin:30px auto 22px;border:3px solid var(--blue);border-radius:50%;object-fit:cover;object-position:center 28%;box-shadow:0 8px 20px rgba(19,27,51,.12)}
+@media(max-width:680px){.profile-photo{width:104px;height:104px;margin-top:28px}}
